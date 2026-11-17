@@ -58,6 +58,20 @@ make test
 Generated files are written to `build/`, which is intentionally excluded from
 Git because STL exports can be large.
 
+## Ready-to-print example alphabet
+
+The repository includes the approved lowercase Cause alphabet as a compressed
+download:
+
+- [Download `cause-lowercase.zip`](examples/generated/cause-lowercase.zip)
+  (26 STL files, approximately 33 MB compressed).
+
+The set uses a 10 mm nominal height at 75% scale (7.5 mm effective height),
+solid relief, and the continuous 2.4 mm reinforcing flare that reaches the
+exact stamping surface. See
+[`examples/generated/README.md`](examples/generated/README.md) for the complete
+parameter summary and archive checksum.
+
 ## Universal command-line generator
 
 `scripts/generate.py` is the recommended interface. It uses the same
