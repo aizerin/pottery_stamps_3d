@@ -1,0 +1,15 @@
+# Generated models and previews
+build/
+*.stl
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# OpenSCAD backup files
+*.scad~
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
